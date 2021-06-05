@@ -8,7 +8,6 @@ def get_list_event(eventnumber = 5):
     events_result = service.events().list(calendarId='primary', timeMin=now,
                                         maxResults=eventnumber, singleEvents=True,
                                         orderBy='startTime').execute()
-    print(events_result)
     events = events_result.get('items', [])
     print(events)
     dictlist = []
@@ -23,7 +22,8 @@ def get_list_event(eventnumber = 5):
         start = event['start'].get('dateTime', event['start'].get('date'))
         #start_time = datetime.strftime(dtparse(start), format=tmfmt)
         event_title_summary = event['summary']
+        event_description = event['description']
         html_link = event['htmlLink']
-        dictlist.append({'datetime': start,'eventtitle' : event_title_summary,'html_link' : html_link})
+        dictlist.append({'start_datetime': start, 'end_datetime':end,'eventtitle' : event_title_summary,'html_link' : html_link, 'event_desc': event_description})
     return(dictlist)
 
