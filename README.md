@@ -30,7 +30,7 @@ Enter authentication code:{Authentication Code Here}
 Setup is complete.You will not need to login the next time you run this bot.
 
 ### Bot commands
-#### eventstoday
+#### $eventstoday
 Use the command like this:
 ```bash
 $eventstoday {number of events displayed}
@@ -39,8 +39,9 @@ $eventstoday
 ```
 Displays all upcoming events for the current date and time.
 Has an optional {number of events displayed} argument.The default number of events displayed is 5.
-#### eventstommorow
+#### $eventstommorow
 Similiar to $eventstoday
+
 Use the command like this:
 ```bash
 $eventstommorow {number of events displayed}
@@ -48,8 +49,9 @@ $eventstommorow {number of events displayed}
 $eventstommorow
 ```
 Displays all upcoming events for the next day
-#### eventsyesterday
+#### $eventsyesterday
 Similiar to $eventstoday
+
 Use the command like this:
 ```bash
 $eventsyesterday {number of events displayed}
