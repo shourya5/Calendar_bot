@@ -1,5 +1,5 @@
 # Calendar_bot
-Calendar bot is a dsicord bot that syncs with Google Calendar.It can be used as a personal companion for to Google Calendar on discord or as a event management service that syncs with Google Calendar
+Calendar bot is a discord bot that syncs with Google Calendar.It can be used as a personal companion to Google Calendar on discord or as a discord event management service that syncs with Google Calendar
 
 ## Installation
 Ensure the python package manager [pip](https://pip.pypa.io/en/stable/) is updated to the latest stable build
