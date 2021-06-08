@@ -40,8 +40,11 @@ $eventstoday
 EXAMPLE:$eventstoday 3
 ```
 Displays all upcoming events for the current date and time.
-<img width="730" alt="example" src="https://user-images.githubusercontent.com/73142986/121127365-48876c8<img width="378" alt="show" src="https://user-images.githubusercontent.com/73142986/121127404-56d58880-c847-11eb-9a54-eeda8c714178.PNG">
-0-c847-11eb-8d55-eb2ccdd63dc1.PNG">
+<img width="730" alt="example" src="https://user-images.githubusercontent.com/73142986/121127466-72409380-c847-11eb-9810-8c2281f055d5.PNG">
+
+<img width="378" alt="show" src="https://user-images.githubusercontent.com/73142986/121127508-7ff61900-c847-11eb-962a-af784f6c8434.PNG">
+
+
 
 Has an optional {number of events displayed} argument.The default number of events displayed is 5.
 #### $eventstommorow
