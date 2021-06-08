@@ -1,11 +1,13 @@
 import datetime
 from cal_setup import get_calendar_service
 
-def get_list_event(eventnumber = 5):
+def get_list_event(eventnumber,tmin,tmax):
     service = get_calendar_service()
     # Call the Calendar API
-    now = datetime.datetime.utcnow().isoformat() + 'Z' # 'Z' indicates UTC time
-    events_result = service.events().list(calendarId='primary', timeMin=now,
+    
+    #now = datetime.datetime.utcnow().isoformat() + 'Z' # 'Z' indicates UTC time
+    
+    events_result = service.events().list(calendarId='primary', timeMin=tmin, timeMax=tmax,
                                         maxResults=eventnumber, singleEvents=True,
                                         orderBy='startTime').execute()
     events = events_result.get('items', [])
