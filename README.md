@@ -14,12 +14,14 @@ pip install python-dateutil
 ## Usage
 ### Setup
 Navigate to the directory where calendar_bot is located
+
 create a .env file and enter your discord bot token in this format:
 ```bash
 DISCORD_TOKEN = {your bot token here}
 ```
 This is the environment variable that main_bot.py acceses the bot token from
-Then run this command:
+
+Run this command:
 ```bash
 python3 main_bot.py
 ```
