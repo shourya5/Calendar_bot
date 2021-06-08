@@ -36,6 +36,8 @@ Use the command like this:
 $eventstoday {number of events displayed}
        OR
 $eventstoday
+
+EXAMPLE:$eventstoday 3
 ```
 Displays all upcoming events for the current date and time.
 Has an optional {number of events displayed} argument.The default number of events displayed is 5.
@@ -49,6 +51,7 @@ $eventstommorow {number of events displayed}
 $eventstommorow
 ```
 Displays all upcoming events for the next day
+Has an optional {number of events displayed} argument.The default number of events displayed is 5.
 #### $eventsyesterday
 Similiar to $eventstoday
 
@@ -59,6 +62,7 @@ $eventsyesterday {number of events displayed}
 $eventsyesterday
 ```
 Displays all past events for the previous day
+Has an optional {number of events displayed} argument.The default number of events displayed is 5.
 ## Contributing
 Pull requests are accepted.Please open an issue if you find a bug or have an idea for a feature.
 ## License
